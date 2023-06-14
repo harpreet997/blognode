@@ -10,7 +10,7 @@ var app = express();
 app.use(cors())
 app.use(bodyParser.json());
 app.use("/blog", blogRoute);
-app.use("/", router);
+// app.use("/", router);
 var port = process.env.PORT || 7000
 app.listen(port, (req, res) => {
   console.log(`Server is running on port no: ${process.env.PORT}`);
