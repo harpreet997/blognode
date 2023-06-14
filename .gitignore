@@ -1,3 +1,2 @@
-node_modules/
-blogenv/
-.env/
+/node_modules
+.env
